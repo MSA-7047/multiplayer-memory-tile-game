@@ -27,3 +27,24 @@ npm install
 npm run dev
 
 EXPLANATION OF HOW A SERVER STARTS AND HOW IT USES THE index.html PAGE
+when running "npm run dev" what is happening is that it is running a script. It looks inside of package.json and goes to "scripts" and looks at "dev". It then runs "vite". What vite does it essentially sets up the development server on your local port. By default the local port is 5173. It then passes the index.html file through that port. Inside of the index.html file is two lines of important code
+
+<div id="root"></div>
+
+this creates an empty box with the id="root"
+
+<script type="module" src="/src/main.jsx"></script>
+
+this is the actual line that runs the actual main.jsx script
+
+Now if we look inside the main.jsx script we see
+
+createRoot(document.getElementById('root')).render(
+  <StrictMode>
+    <App />
+  </StrictMode>,
+)
+
+this line looks at the DOM and finds the tag where the id="root" and sets up a react root there. The DOM is the Document Object Model. It sets up a page almost like a upside down tree where the branches are html tags (<p>,<h>,<div>). There it actually renders the App.jsx file which is the main react function/component for the page
+
+EXPLANATIONS OF HOW REACT COMPONENTS WORK
