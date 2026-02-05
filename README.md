@@ -21,7 +21,7 @@ allows you to install vite to run vite commands so that when you run npm run dev
 npm create vite@latest my-react-app -- --template react
 this uses vites built in templates to create a setup
 
-cd into frontendtwo and then my-react-app
+cd into frontendtwo
 npm install -g create-vite
 npm install
 npm run dev
