@@ -15,14 +15,15 @@ react is a javascript library that is used to build dynamic and interactive webs
 What is Vite
 Vite is a modern build tool - which means it compiles the jsx/js code into a format that browsers can run. Used for React and vue and such. During development Vite provides a fast dev server with hot module replacement, which means you can see changes instantly without reloading the entire page.
 
-frontendtwo setup
+frontend setup
 npm install -g create-vite
 allows you to install vite to run vite commands so that when you run npm run dev and look at the package.json file and see what the script is running its running vite which is the build tool to start the server
 npm create vite@latest my-react-app -- --template react
 this uses vites built in templates to create a setup
 
-cd into frontendtwo
+cd into frontend
 npm install -g create-vite
+npm install react-router-dom
 npm install
 npm run dev
 
