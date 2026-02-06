@@ -8,15 +8,14 @@ export default function AppLayout() {
         <Link to="/" className="brand">
           <div className="logo" />
           <div>
-            <h1>Memory Tiles</h1>
-            <p>Shuffles a pair every move • up to 4 players • optional login</p>
+            <h1>Shuffling Memory Tiles</h1>
           </div>
         </Link>
 
         <nav className="nav">
           <NavLink className="pill" to="/">Game</NavLink>
           <NavLink className="pill" to="/profile">Profile</NavLink>
-          <NavLink className="pill" to="/signup">Sign up</NavLink>
+          <NavLink className="pill" to="/signup">Sign Up</NavLink>
         </nav>
       </header>
 
