@@ -132,7 +132,7 @@
   }
   
   .panelHeader {
-    margin-bottom: 12px;
+    margin-bottom: 16px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -280,7 +280,7 @@
     width: 95%;
     max-width: 100%;
     aspect-ratio: 1.5;
-    height: 75%;
+    height: 100%;
   }
   
   .tile {
