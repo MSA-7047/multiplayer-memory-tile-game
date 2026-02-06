@@ -274,7 +274,7 @@ main { min-height: 0; overflow: hidden; }
   gap: clamp(8px, 1.2vw, 12px);
 
   /* board sizing that works on most screens */
-  width: min(100%, 900px);
+  width: min(90%, 900px);
   height: auto;
   aspect-ratio: 1.5;
 
